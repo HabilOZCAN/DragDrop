@@ -1,0 +1,72 @@
+.draggable {
+    cursor: move;
+    margin-bottom: 1rem;
+    user-select: none;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    color: aquamarine;
+    font:bold;
+}
+
+.draggable:first-child {
+    margin-left: 2em;
+}
+#word-result{
+    width: 10em;
+    height: 2em;
+    background-color: bisque;
+    border: black solid 1px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 7.4em;
+
+}
+.placeholder {
+    background-color: #3982ca;
+    border: 2px solid #cbd5e0;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+}
+
+#draggzone {
+    display: inline-block;
+    height: 15em;
+    width: 27.5em;
+    background-color: greenyellow;
+    border: hotpink solid 2px;
+    padding: 1em;
+    margin-top: 20%;
+    margin-left: 37%;
+}
+
+
+#list {
+    display: inline-block;
+    height: 5em;
+    width: 25em;
+    background-color: rgb(56, 26, 49);
+    border: rgb(209, 155, 37) solid 2px;
+    padding: 1em;
+  
+}
+
+.buttons {
+    display: inline-block;
+    text-align: justify;
+    margin-top: 0.5em;
+}
+
+.buttons:first-child {
+
+    margin-left: 6.5em;
+
+}
+
+.buttons:nth-child(2) {
+
+    margin-left: 1em;
+
+}
